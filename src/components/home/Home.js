@@ -14,7 +14,7 @@ const nyArea = [
 ];
 
 export default function Home() {
-  const [selectedArea, setSelectArea] = useState("");
+  const [selectedArea, setSelectArea] = useState("首页");
 
   return (
     <>
