@@ -22,7 +22,7 @@ export default function Home() {
         <Stack direction="row" spacing={1}>
           {nyArea.map((item) => {
             return (
-              <div className="areaButtons">
+              <div key={item} className="areaButtons">
                 <Button onClick={() => setSelectArea(item)}>{item}</Button>
               </div>
             );
